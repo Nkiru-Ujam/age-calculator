@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="icon" href="images/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="age-container">
+        <form class="calculate-age">
+          <div class="day-cont">
+            <label for="day" class="daylabel">DAY</label>
+            <input type="number" class="day" placeholder="DD" />
+            <span class="error-message" id="dayerror"></span>
+          </div>
+
+          <div class="month-cont">
+            <label for="month" class="monthlabel">MONTH</label>
+            <input type="number" class="month" placeholder="MM" />
+            <span class="error-message" id="montherror"></span>
+          </div>
+
+          <div class="years-cont">
+            <label for="year" class="yearlabel">YEAR</label>
+            <input type="number" class="year" placeholder="YYYY" />
+            <span class="error-message" id="yearerror"></span>
+          </div>
+        </form>
+
+        <div class="btn-container">
+          <div class="line"></div>
+          <div class="image-cont">
+            <img src="images/icon-arrow.svg" alt="" class="img-btn" />
+          </div>
+        </div>
+
+        <div class="display-cont">
+          <p class="years">--</p>
+          <h1>years</h1>
+        </div>
+
+        <div class="display-cont">
+          <p class="months">--</p>
+          <h1>months</h1>
+        </div>
+
+        <div class="display-cont">
+          <p class="days">--</p>
+          <h1>days</h1>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
